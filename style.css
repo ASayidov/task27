@@ -5,3 +5,35 @@
   list-style-type: none;
   text-decoration: none;
 }
+
+button {
+color: blue;
+padding: 0.5rem 2.5rem;
+font-size: 1.5rem;
+margin-top: 2rem;
+}
+
+.header_section {
+  color: #fff;
+  background-color: blue;
+  width: 40%;
+  padding: 9rem 3rem;
+}
+
+/* .header_section:nth-child(4) {
+  color: aqua;
+} */
+header {
+  display: grid;
+  grid-template-columns: auto auto;
+
+}
+h1 {
+  margin: 0.5rem 0 1rem 0;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+.right_img {
+  background-image: url(./assets/img/student_laptop.jpg);
+}
