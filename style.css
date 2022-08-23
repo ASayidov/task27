@@ -1,5 +1,7 @@
-body {
-  background-color: aqua;
-  background-image: url(./assets/img/bx-brush.svg);
-  background-repeat: no-repeat;
+*{
+  padding: 40;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
 }
