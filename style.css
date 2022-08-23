@@ -23,11 +23,11 @@ margin-top: 2rem;
 /* .header_section:nth-child(4) {
   color: aqua;
 } */
-header {
-  display: grid;
-  grid-template-columns: auto auto;
 
+header {
+  display: flex;
 }
+
 h1 {
   margin: 0.5rem 0 1rem 0;
   text-transform: capitalize;
@@ -36,4 +36,5 @@ h1 {
 
 .right_img {
   background-image: url(./assets/img/student_laptop.jpg);
-}
+  width: 100%;
+  }
