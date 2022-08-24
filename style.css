@@ -8,7 +8,7 @@
 
 button {
 color: blue;
-padding: 0.5rem 2.5rem;
+padding: 0.5rem 3rem;
 font-size: 1.5rem;
 margin-top: 2rem;
 }
@@ -16,25 +16,41 @@ margin-top: 2rem;
 .header_section {
   color: #fff;
   background-color: blue;
-  width: 40%;
-  padding: 9rem 3rem;
+  width: 70%;
+  padding: 7rem 5rem;
 }
-
-/* .header_section:nth-child(4) {
-  color: aqua;
-} */
 
 header {
   display: flex;
+}
+
+#for_letter{
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 h1 {
   margin: 0.5rem 0 1rem 0;
   text-transform: capitalize;
   font-family: sans-serif;
+  font-size: 3rem;
 }
 
 .right_img {
   background-image: url(./assets/img/student_laptop.jpg);
   width: 100%;
-  }
+}
+
+.social_list {
+  display: flex;
+  width: 10%;
+  position: absolute;
+  right: 0;
+  background-color: blue;
+  justify-content: center;
+  padding: 0.7rem 2rem;
+}
+
+.social_list li {
+margin:0 0.5rem;
+}
